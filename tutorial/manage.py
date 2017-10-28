@@ -2,7 +2,10 @@
 import os
 import sys
 
+
+#Main method boilerplate
 if __name__ == "__main__":
+    #Setting Django Environment
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tutorial.settings")
 
     from django.core.management import execute_from_command_line
